@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:title="add"
+        android:icon="@drawable/ic_add_white_24dp"
+        android:id="@+id/add"
+        app:showAsAction="always"
+        />
+    <item
+        android:title="delete"
+        android:icon="@drawable/ic_delete_white_24dp"
+        android:id="@+id/delete"
+        app:showAsAction="always"
+        />
+
+    <item
+        android:title="settings"
+        android:id="@+id/settings"
+        app:showAsAction="never"
+        />
+
+    <item
+        android:title="help"
+        android:id="@+id/help"
+        app:showAsAction="never"
+        />
+
+    <item
+        android:title="exit"
+        android:id="@+id/exit"
+        app:showAsAction="never"
+        />
+
+
+
+</menu>
